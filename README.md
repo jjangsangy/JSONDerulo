@@ -1,23 +1,26 @@
 # JSONDerulo
+A JSON format that is for serial and forreal
 
-A JSON format that is for serial and forreal.
+![](https://s-media-cache-ak0.pinimg.com/736x/dd/92/bb/dd92bb9d9ee4a066dc3b8ba7cc88b1f3.jpg)
 
-
-![JSON](https://s-media-cache-ak0.pinimg.com/736x/dd/92/bb/dd92bb9d9ee4a066dc3b8ba7cc88b1f3.jpg)
 
 ## Usage
 
-### derulo [--version, -v]
-
 ```JSON
 
-$ derulo --version
+$ derulo [--version, -v]
   "JSONDerulo version JSONDerulo" 
   
 ```
 
 # Basic Usage
-```
+```JSON
+derulo --say --output=json
+  {
+    "JSONDerulo": "whatcha say"
+  }
+
+# Syntactic Sugar
 derulo --say --output=json
   {
     "JSONDerulo": "whatcha say"
@@ -25,17 +28,8 @@ derulo --say --output=json
 }
 ```
 
-
-# Syntactic Sugar
 ```JSON
-derulo --say --output=json
-  {
-    "JSONDerulo": "whatcha say"
-  }
-```
-
-# Streamig format
-```JSON
+# Streamig JSON FORMAT
 derulo --stream solo
 {
   "JSONDerulo": 
