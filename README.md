@@ -19,20 +19,18 @@ Made at UCSB Hack 2015 for fun
 ```sh
 $ derulo [--version, -v]
   "JSONDerulo version JSONDerulo" 
-  
 ```
 
 # Basic Usage
 ```sh
 $ derulo --say
-```
-```JSON
 {
   "JSONDerulo": "whatcha say"
 }
 ```
 
-## Syntactic Sugar
+Syntactic Sugar
+
 ```sh
 $ derulo --say --output=json
 ```
@@ -42,18 +40,17 @@ $ derulo --say --output=json
 }
 ```
 
-# Keyword Based Usage
+Keyword Based Query
 
 ```sh
 $ derulo relationships
-```
 {
   "JSONDerulo": "JSONDerulo"
 }
 ```
+
 ```sh
 # derulo castle
-```JSON
 {
   "JSONDerulo": "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
 }
@@ -63,8 +60,6 @@ $ derulo relationships
 ## Stream Output
 ```sh
 $ derulo --stream solo
-```
-```JSON
   "JSONDerulo": 
       [
         "Riding solo, soooooloooo",
@@ -83,10 +78,8 @@ $ derulo --stream solo
 
 Issue with Infinite recursive calls
 
-```
+```sh
 $ derulo --say derulo
-```
-```JSON
 {
   "JSONDerulo": {
     "JSONDerulo": {
