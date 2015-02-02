@@ -36,9 +36,6 @@ $ derulo relationships
 {
   "JSONDerulo": "JSONDerulo"
 }
-```
-
-```sh
 $ derulo castle
 {
   "JSONDerulo": "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
@@ -98,9 +95,6 @@ $ derulo
 {
   "JSONDerulo": "JSONDerulo"
 }
-```
-
-``` sh
 $ derulo
 {
   "JSONDerulo": "Marry Me"
