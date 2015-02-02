@@ -1,10 +1,24 @@
 # JSONDerulo
-A JSON based serialization that is dirty to talk about
+A JSON serialization that is dirty to talk about
+
+
+```sh
+$ derulo
+```
+```JSON
+{
+  "JSONDerulo": "JSONDerulo"
+```
+
+## Author: Sang Han 2015
+
+Made at UCSB Hack 2015 for fun
+(_This software doesn't actually exist_)
 
 ## Usage
 
-```JSON
 
+```sh
 $ derulo [--version, -v]
   "JSONDerulo version JSONDerulo" 
   
@@ -12,7 +26,7 @@ $ derulo [--version, -v]
 
 # Basic Usage
 ```sh
-$ derulo --say --output=json
+$ derulo --say
 ```
 ```JSON
 {
@@ -28,24 +42,23 @@ $ derulo --say --output=json
 {
   "JSONDerulo": "whatcha say"
 }
-```
+` ``
 
 # Keyword Based Usage
 
 ```sh
 $ derulo relationships
 ```
-```JSON
 {
-  "JSONDerulo": "Marry Me"
+  "JSONDerulo": "JSONDerulo"
 }
 ```
-
-# 
+```sh
+# derulo castle
 ```
+```JSON
 {
-  "JSONDerulo":
-      "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
+  "JSONDerulo": "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
 }
 
 ```
@@ -92,9 +105,22 @@ $ derulo --say derulo
 }}
 ```
 
-Undefined Behavior
-
+# Undefined Stochastic Behavior
+``` sh
+$ derulo advice
 ```
-$ derulo --say
+```JSON
+{
+  "JSONDerulo": "Marry Me"
+}
+```
 
+
+```sh
+$ derulo advice
+```
+```JSON
+{
+  "JSONDerulo": "Marry Me"
+}
 ```
