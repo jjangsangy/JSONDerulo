@@ -1,7 +1,7 @@
 # JSONDerulo
 A JSON serialization that is dirty to talk about
 
-## Author: Sang Han 2015:
+## Author: Sang Han 2015: jjangsangy@gmail.com
 Made at UCSB Hack 2015 for fun
 
 ```sh
@@ -14,24 +14,16 @@ $ derulo
 ## Usage
 
 ```sh
-$ derulo [--version, -v]
-  "JSONDerulo version JSONDerulo" 
-```
-
-# Basic Usage
-```sh
 $ derulo --say
 {
   "JSONDerulo": "whatcha say"
 }
 ```
 
-Syntactic Sugar
+### Syntactic Sugar
 
 ```sh
 $ derulo --say --output=json
-```
-```JSON
 {
   "JSONDerulo": "whatcha say"
 }
