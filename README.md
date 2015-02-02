@@ -5,16 +5,20 @@ A JSON format that is for serial and forreal.
 
 ## Usage
 
+```JSON
 derulo --version
   "what'cha say"
 
 derulo --say
 {
   "derulo":
-    ["IS THERE SUCH A THING AS A CONNECTED CASTLE?", "“Women Lie, Men Lie, Numbers Don’t Lie!"]
+    [ 
+      "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
+      "Women Lie,""Men Lie", "Numbers Don’t Lie!"
+    ]
 }
 
-derulo --stream
+derulo --stream "solo"
 {
   [
     "Riding solo, soooooloooo", "yeah it's like",
@@ -24,3 +28,5 @@ derulo --stream
         "S", "O", "L", "O",
   ]
 }
+
+```
