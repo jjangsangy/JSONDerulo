@@ -1,8 +1,5 @@
 # JSONDerulo
-A JSON format that is for serial and forreal
-
-![](https://s-media-cache-ak0.pinimg.com/736x/dd/92/bb/dd92bb9d9ee4a066dc3b8ba7cc88b1f3.jpg)
-
+A JSON based serialization that is dirty to talk about
 
 ## Usage
 
@@ -14,27 +11,51 @@ $ derulo [--version, -v]
 ```
 
 # Basic Usage
+```sh
+$ derulo --say --output=json
+```
 ```JSON
-derulo --say --output=json
-  {
-    "JSONDerulo": "whatcha say"
-  }
-
-# Syntactic Sugar
-derulo --say --output=json
-  {
-    "JSONDerulo": "whatcha say"
-  }
+{
+  "JSONDerulo": "whatcha say"
 }
 ```
 
+## Syntactic Sugar
+```sh
+$ derulo --say --output=json
+```
 ```JSON
-# Streamig JSON FORMAT
-derulo --stream solo
 {
+  "JSONDerulo": "whatcha say"
+}
+```
+
+# Keyword Based Usage
+
+```sh
+$ derulo relationships
+```
+```JSON
+{
+  "JSONDerulo": "Marry Me"
+}
+```
+
+# 
+```
+{
+  "JSONDerulo":
+      "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
+}
+
+```
+
+## Stream Output
+```sh
+$ derulo --stream solo
+```
+```JSON
   "JSONDerulo": 
-{
-    "derulo":
       [
         "Riding solo, soooooloooo",
         "yeah it's like",
@@ -44,5 +65,36 @@ derulo --stream solo
             "S", "O", "L", "O"
       ]
 }
+
+```
+
+
+## Known Issues
+
+Infinite recursive calls
+
+```
+$ derulo --say derulo
+```
+```JSON
+{
+  "JSONDerulo": {
+    "JSONDerulo": {
+      "JSONDerulo": {
+        "JSONDerulo": {
+          "JSONDerulo": {
+            "JSONDerulo": ...
+          }
+        }
+      }
+    }
+  }
+}}
+```
+
+Undefined Behavior
+
+```
+$ derulo --say
 
 ```
