@@ -1,6 +1,9 @@
 # JSONDerulo
 A JSON serialization that is dirty to talk about
 
+## Author: Sang Han 2015:
+Made at UCSB Hack 2015 for fun
+
 ```sh
 $ derulo
 {
@@ -8,13 +11,7 @@ $ derulo
 }
 ```
 
-## Author: Sang Han 2015
-
-Made at UCSB Hack 2015 for fun
-(_This software doesn't actually exist_)
-
 ## Usage
-
 
 ```sh
 $ derulo [--version, -v]
