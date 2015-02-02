@@ -1,8 +1,8 @@
 # JSONDerulo
 A JSON serialization that is dirty to talk about
 
-## Author: Sang Han 2015: jjangsangy@gmail.com
-Made at UCSB Hack 2015 for fun
+## Author: Sang Han 2015
+jjangsangy@gmail.com
 
 ```sh
 $ derulo
@@ -52,13 +52,20 @@ $ derulo --stream solo
   "JSONDerulo": 
       [
         "Riding solo, soooooloooo",
-        "yeah it's like",
+        "yeah it's like": [
             "S", "O", "L", "O",
             "S", "O", "L", "O",
             "S", "O", "L", "O",
             "S", "O", "L", "O"
-      ]
-}
+      ],
+      "yeah it's like": [
+            "S", "O", "L", "O",
+            "S", "O", "L", "O",
+            "S", "O", "L", "O",
+            "S", "O", "L", "O"
+      ],
+      "yeah it's like":  [ ...
+      
 
 ```
 
