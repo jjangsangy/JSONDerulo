@@ -18,15 +18,16 @@ derulo --say
     ]
 }
 
-derulo --stream "solo"
 {
     "derulo":
-      "Riding solo, soooooloooo",
-      "yeah it's like",
-          "S", "O", "L", "O",
-          "S", "O", "L", "O",
-          "S", "O", "L", "O",
-          "S", "O", "L", "O",
+      [
+        "Riding solo, soooooloooo",
+        "yeah it's like",
+            "S", "O", "L", "O",
+            "S", "O", "L", "O",
+            "S", "O", "L", "O",
+            "S", "O", "L", "O"
+      ]
 }
 
 ```
