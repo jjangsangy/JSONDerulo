@@ -40,7 +40,7 @@ $ derulo --say --output=json
 {
   "JSONDerulo": "whatcha say"
 }
-` ``
+```
 
 # Keyword Based Usage
 
@@ -53,7 +53,6 @@ $ derulo relationships
 ```
 ```sh
 # derulo castle
-```
 ```JSON
 {
   "JSONDerulo": "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
@@ -80,9 +79,9 @@ $ derulo --stream solo
 ```
 
 
-## Known Issues
+## Some Known Issues
 
-Infinite recursive calls
+Issue with Infinite recursive calls
 
 ```
 $ derulo --say derulo
@@ -103,21 +102,17 @@ $ derulo --say derulo
 }}
 ```
 
-# Undefined Stochastic Behavior
+### Some Undefined Stochastic Behavior
+
 ``` sh
-$ derulo advice
-```
-```JSON
+$ derulo
 {
-  "JSONDerulo": "Marry Me"
+  "JSONDerulo": "JSONDerulo"
 }
 ```
 
-
-```sh
-$ derulo advice
-```
-```JSON
+``` sh
+$ derulo
 {
   "JSONDerulo": "Marry Me"
 }
