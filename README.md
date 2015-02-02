@@ -6,18 +6,32 @@ A JSON format that is for serial and forreal.
 ## Usage
 
 ```JSON
-derulo --version
-  "what'cha say"
 
-derulo --say
-{
-  "derulo":
-    [ 
-      "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
-      "Women Lie,""Men Lie", "Numbers Don’t Lie!"
-    ]
+$ derulo [--version, -v]
+  "JSONDerulo version JSONDerulo" 
+  
+```
+
+# Basic Usage
+```JSON
+derulo --say --output=json
+  {
+    "JSONDerulo": "whatcha say"
+  }
+
+# Syntactic Sugar
+derulo --say --output=json
+  {
+    "JSONDerulo": "whatcha say"
+  }
 }
+```
 
+```JSON
+# Streamig JSON FORMAT
+derulo --stream solo
+{
+  "JSONDerulo": 
 {
     "derulo":
       [
