@@ -1,13 +1,11 @@
 # JSONDerulo
 A JSON serialization that is dirty to talk about
 
-
 ```sh
 $ derulo
-```
-```JSON
 {
   "JSONDerulo": "JSONDerulo"
+}
 ```
 
 ## Author: Sang Han 2015
