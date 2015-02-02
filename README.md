@@ -39,7 +39,7 @@ $ derulo relationships
 ```
 
 ```sh
-# derulo castle
+$ derulo castle
 {
   "JSONDerulo": "IS THERE SUCH A THING AS A CONNECTED CASTLE?",
 }
